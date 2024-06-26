@@ -1,0 +1,75 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.bg-dark {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(102,51,153,1) 35%);
+}
+
+.header {
+    margin: 0px;
+    padding: 0px;
+    background-color: rebeccapurple;
+}
+
+    .header h1, .header h2, .header h3, .header h4, .header h5 {
+        margin: 0px;
+        padding: 0px 0px 0px 10px;
+        color: aliceblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+.card-img {
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    margin: 0px;
+    padding: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.sidebar{
+    border-width:1px;
+    border-style: solid;
+    border-color: black;
+    margin: 0px 10px 0px 10px;
+    min-height: 500px;
+    padding-left:0px;
+    padding-right:0px;
+
+}
+
+.sidebar ul {
+    list-style-type:none;
+    padding-left:5px;
+    padding-right:0px;
+}
+
+.table tr:nth-child(even) {
+    background-color: rgba(102, 51, 123, .25);
+}
